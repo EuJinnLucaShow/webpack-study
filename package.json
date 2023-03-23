@@ -1,0 +1,17 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <a href=\"https://github.com/webpack/webpack\">\r     <img width=\"200\" height=\"200\" src=\"https://webpack.js.org/assets/icon-square-big.svg\">\r   </a>\r   <br>\r   <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}
