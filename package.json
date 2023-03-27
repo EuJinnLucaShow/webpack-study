@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "scripts": {    
     "build": "webpack",
     "start": "webpack serve --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yevhenii Lukashov <eujinnlucashow@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.76.3",
