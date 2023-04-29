@@ -1,11 +1,14 @@
 {
+  "homepage": "https://EuJinnLucaShow.github.io/webpack-study",
   "name": "webpack-study",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Yevhenii Lukashov <eujinnlucashow@gmail.com>",
