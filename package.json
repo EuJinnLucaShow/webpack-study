@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {    
+  "scripts": {
     "build": "webpack",
     "start": "webpack serve --open"
   },
@@ -11,6 +11,7 @@
   "author": "Yevhenii Lukashov <eujinnlucashow@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
